@@ -1,5 +1,5 @@
 body{
-    background: #23252C;
+    background: #1A1B21;
     padding: 4em 0;
 }
 .info--section{
@@ -49,4 +49,20 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 0.875rem;
+}
+.about--section{
+color: white;
+margin: auto;
+width: 320px; 
+padding: 20px;
+}
+.about--bold{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+}
+.about--light{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+    font-size: 0.70rem;
+    line-height: 1.2rem;
 }
