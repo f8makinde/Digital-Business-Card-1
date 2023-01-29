@@ -54,15 +54,37 @@ body{
 color: white;
 margin: auto;
 width: 320px; 
-padding: 20px;
+padding: 40px;
 }
 .about--bold{
     font-family: 'Inter', sans-serif;
     font-weight: 700; 
+    margin: 0;
+    padding: 0;
 }
 .about--light{
     font-family: 'Inter', sans-serif;
     font-weight: 400; 
     font-size: 0.70rem;
     line-height: 1.2rem;
+    margin: 0;
+}
+.interests--section{
+color: white;
+margin: auto;
+width: 320px; 
+}
+.interests--bold{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+    margin: 0;
+    padding: 0;
+}
+
+.interests--light{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; 
+    font-size: 0.70rem;
+    line-height: 1.2rem;
+    margin: 0;
 }
