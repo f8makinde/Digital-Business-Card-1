@@ -6,10 +6,11 @@ import React from 'react'
 export default function Footer(){
     return(
         <div className='footer--section'>
-            <img src={twitterLogo} alt="logo" />
-            <img src={fbLogo} alt="logo" />
-            <img src={instaLogo} alt="logo" />
-            <img src={githubLogo} alt="logo" />
+            <a href='https://twitter.com/f8_makinde' target='_blank'><img src={twitterLogo} alt="logo" /></a>
+            <a href=''><img src={fbLogo} alt="logo" /></a>
+            <a href='https://www.instagram.com/f8_makinde/' target='_blank'> <img src={instaLogo} alt="logo" /></a>
+            <a href='https://github.com/f8makinde' target='_blank'><img src={githubLogo} alt="logo" /></a>
+            
         </div>
     )
 }

@@ -1,12 +1,17 @@
 body{
-    background: #1A1B21;
+    background: #23252C;
     padding: 4em 0;
     display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
 }
+#root{
+    width: 350px;
+    background: #1A1B21;
+    border-radius:10px;
 
+}
 .info--section{
   display: flex;
   flex-direction: column;
@@ -60,7 +65,7 @@ body{
 .about--section{
 color: white;
 margin: auto;
-width: 320px; 
+width: 300px; 
 padding: 40px;
 background: ba;
 }
@@ -80,7 +85,7 @@ background: ba;
 .interests--section{
 color: white;
 margin: auto;
-width: 320px; 
+width: 300px; 
 padding: 0 40px;
 }
 .interests--bold{
@@ -98,15 +103,15 @@ padding: 0 40px;
     margin: 0;
 }
 .footer--section{
-color: white;
+/* color: white;
 margin: auto;
-width: 230px; 
+width: 209px;  */
 display: flex;
 justify-content: center;
 align-items: center;
-justify-content: space-between;
+gap: 30px;
 background: #161619;
-padding: 1em 4.5em;
+padding: 1em 0;
 margin-top: 2.5em;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
